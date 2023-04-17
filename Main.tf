@@ -9,8 +9,8 @@ resource "aws_s3_bucket" "my_final_bucket" {
 
 
 
-resource "aws_security_group" "raghu_sg" {
-  name   = "raghu_sg"
+resource "aws_security_group" "raghunandan_sg" {
+  name   = "raghunandan_sg"
   vpc_id = "vpc-05c8d369712b48906"
   ingress {
     from_port   = 80
