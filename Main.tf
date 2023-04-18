@@ -1,7 +1,7 @@
 provider "aws"{
     region ="us-east-1"
-    access_key ="AKIAYBUDLFUT4G62IWY4"
-    secret_key ="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"
+    access_key ="AKIAYBUDLFUTQGV3EERE"
+    secret_key ="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"
 }
 #resource "aws_s3_bucket" "my_final_bucket-1" {
  #   bucket = "final-bucket89511-1"
