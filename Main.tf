@@ -1,7 +1,7 @@
 provider "aws"{
     region ="us-east-1"
-    access_key ="AKIAYBUDLFUTY4WVDZGC"
-    secret_key ="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"
+    access_key ="AKIAYBUDLFUT4G62IWY4"
+    secret_key ="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"
 }
 resource "aws_s3_bucket" "my_final_bucket" {
     bucket = "final-bucket89511"
@@ -38,7 +38,7 @@ resource "aws_security_group" "raghunandan_sg" {
   }
 
 }
-resource "aws_instance" "task-instance" {
+resource "aws_instance" "task-instance11" {
   ami           = "ami-06e46074ae430fba6"
   instance_type = "t2.micro" 
   key_name               = "default-ec2"
