@@ -39,13 +39,13 @@ resource "aws_security_group" "raghunandan_final-sg" {
 
 }
 
-#resource "aws_instance" "task-instance1-1" {
- # ami           = "ami-06e46074ae430fba6"
-  #instance_type = "t2.micro" 
-  #key_name               = "default-ec2"
+resource "aws_instance" "task-instance1-1" {
+  ami           = "ami-06e46074ae430fba6"
+  instance_type = "t2.micro" 
+  key_name               = "default-ec2"
     
-  #tags ={
-   #   Name = "pipeline_created_instance-1" 
-  #}
+  tags ={
+      Name = "pipeline_created_instance-1" 
+  }
   
-#}
+}
