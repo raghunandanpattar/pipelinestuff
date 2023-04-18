@@ -3,9 +3,9 @@ provider "aws"{
     access_key ="AKIAYBUDLFUT4G62IWY4"
     secret_key ="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"
 }
-resource "aws_s3_bucket" "my_final_bucket-1" {
-    bucket = "final-bucket89511-1"
-}
+#resource "aws_s3_bucket" "my_final_bucket-1" {
+ #   bucket = "final-bucket89511-1"
+#}
 
 
 
